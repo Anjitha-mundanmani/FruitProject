@@ -47,6 +47,7 @@ def change_fruit_details():
 		print('modify fruit data')
 		fruit[c]['fruit_name'] = input('Enter new fruit name :')
 		fruit[c]['rate'] =input('Enter new rate : ')
+		
 def search_fruit_details():
 	name=input("enter the fruit name you want to search")
 	rate=input("enter the fruit rate you want to search")
@@ -70,7 +71,7 @@ while True:
 	elif choice == 3:
 		change_fruit_details()
 	elif choice == 4:
-		search_fruit_details()
+		search_menu()
 	elif choice == 5: 
                 print(fruit)
 	elif choice == 6:
